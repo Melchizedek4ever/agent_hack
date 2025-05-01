@@ -9,6 +9,7 @@ from semantic_kernel.agents.chat_completion.chat_completion_agent import ChatCom
 from semantic_kernel.agents.open_ai.open_ai_assistant_agent import OpenAIAssistantAgent
 from semantic_kernel.agents.orchestration.magentic_one import MagenticOneOrchestration
 from semantic_kernel.connectors.ai.open_ai.services.open_ai_chat_completion import OpenAIChatCompletion
+from semantic_kernel.plugins.semrush_plugin import SEMrushPlugin
 
 logging.basicConfig(level=logging.WARNING)  # Set default level to WARNING
 logging.getLogger("semantic_kernel.agents.orchestration.magentic_one").setLevel(
